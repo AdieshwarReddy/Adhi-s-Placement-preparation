@@ -122,3 +122,22 @@ Decision (Loop): Draw a diamond shape labeled Is i <= n? to control the loop.
  If No, it exits the loop.
 Output: Draw a parallelogram labeled Print sum to show the final result.
 Flow Lines: Connect each shape in order using arrows.
+
+
+
+Comments :
+
+Comments can be used to make the code more readable.
+
+Comments can be used to prevent execution when testing code.
+
+Single line comments: #This is a comment
+print("Hello, World!")
+
+Multiline Comments:
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
