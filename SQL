@@ -1,1 +1,37 @@
 
+employees(
+    employee_id,
+    employee_name,
+    department_id,
+    salary,
+    city,
+    experience_years
+)
+
+departments(
+    department_id,
+    department_name
+)
+
+1.Display all employees
+SELECT *
+FROM employees;
+
+2.Display only employee names and salaries
+SELECT employee_name, salary
+FROM employees;
+
+3.Find employees whose salary is greater than 50,000
+SELECT *
+FROM employees
+WHERE salary > 50000;
+
+4. Find employees who live in Hyderabad
+SELECT *
+FROM employees
+WHERE city = 'Hyderabad';
+
+5.Find employees whose salary is between 40,000 and 80,000
+SELECT *
+FROM employees
+WHERE salary BETWEEN 40000 AND 80000;
