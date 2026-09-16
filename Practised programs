@@ -31,4 +31,19 @@ print(check_number(5))   # Output: Positive
 print(check_number(-3))  # Output: Negative
 print(check_number(0))   # Output: Zero
 
-#4 Display numbers from 1 to 10 using a while loop.
+# 5 .Display numbers from 1 to 10 using a while loop.
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+#6 Display even numbers between m and n
+m = int(input("Enter m: "))
+n = int(input("Enter n: "))
+start = min(m, n)
+end = max(m, n)
+if start % 2 != 0:
+    start += 1
+for i in range(start, end + 1, 2):
+    print(i)
+
